@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Zurlinni/static/css/main.fead1dae.css",
+    "main.js": "/Zurlinni/static/js/main.04bfc2e9.js",
+    "static/media/asset7.png": "/Zurlinni/static/media/asset7.db021290ef3585044f66.png",
+    "static/media/water-frame.png": "/Zurlinni/static/media/water-frame.5f919b630d4fbe894a7e.png",
+    "static/media/Logo.png": "/Zurlinni/static/media/Logo.693cfcd6801942cdcb55.png",
+    "static/media/hat.png": "/Zurlinni/static/media/hat.a27674d539ce108476f4.png",
+    "static/media/purse.png": "/Zurlinni/static/media/purse.e2e5c1911bb65c8405fe.png",
+    "static/media/model5.png": "/Zurlinni/static/media/model5.fcd4f292f2dba347c0df.png",
+    "static/media/model2.png": "/Zurlinni/static/media/model2.6c3f76c8ad1a265c38c5.png",
+    "static/media/model1.png": "/Zurlinni/static/media/model1.720eea14b10e9beafe2a.png",
+    "static/media/model4.png": "/Zurlinni/static/media/model4.d6029b6b558e073ee6e2.png",
+    "static/media/model3.png": "/Zurlinni/static/media/model3.1f9a719f68101df70f0c.png",
+    "index.html": "/Zurlinni/index.html",
+    "main.fead1dae.css.map": "/Zurlinni/static/css/main.fead1dae.css.map",
+    "main.04bfc2e9.js.map": "/Zurlinni/static/js/main.04bfc2e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fead1dae.css",
+    "static/js/main.04bfc2e9.js"
+  ]
+}

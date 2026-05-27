@@ -1,0 +1,15 @@
+.card{
+    background-image: url("../../../../../assets/water-frame.png");
+    padding: 1rem;
+    width: fit-content;
+}
+
+.image-wrapper{
+    width: 5rem;
+    background-color: var(--white);
+}
+
+.card-image{
+    display: block;
+    width: 100%;  
+}

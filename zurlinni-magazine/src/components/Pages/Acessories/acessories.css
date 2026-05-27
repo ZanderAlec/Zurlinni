@@ -1,0 +1,29 @@
+.accessories-container{
+    width: 100%;
+}
+
+.big-img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.big-img img{
+    width: 100%;
+}
+
+.smll-img{
+    width: 100%;
+    background-color: var(--lighter-blue);
+}
+
+.smll-img img{
+    width: 100%;
+}
+
+.flex-row{
+    box-sizing: border-box;
+    display: flex;
+    gap: 1rem;
+
+}
+

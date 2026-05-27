@@ -3,11 +3,21 @@ import Page from '../Page'
 import "./style.css"
 import {useSwap} from '../../hooks/useSwap'
 import {motion, useAnimation} from 'framer-motion';
+import {Concept} from "../Pages/concept/index.jsx"
+import Collection from '../Pages/concept/Collection/index.jsx';
+import Acessories from '../Pages/Acessories/index.jsx'
 
 export default function Book() {
-  const pagesNum = 3;
 
-  const [currentPage, setCurrentPage] = useState(1);
+  const pages = [
+    <Concept/>,
+    <Collection/>,
+    <Acessories/>
+  ];
+
+  const pagesNum = pages.length-1;
+
+  const [currentPage, setCurrentPage] = useState(0);
   const [flippingPage, setFlippingPage] = useState(null);
   const [isAnimating, setIsAnimating] = useState(false);
   const controls = useAnimation();
@@ -18,7 +28,7 @@ export default function Book() {
 
   const targetPage = currentPage + direction;
 
-  if (targetPage < 1 || targetPage > pagesNum) return;
+  if (targetPage < 0 || targetPage > pagesNum) return;
 
   setIsAnimating(true);
 
@@ -33,7 +43,7 @@ export default function Book() {
   );
 
   await controls.start({
-    rotateY: direction > 0 ? -180 : 180,
+    rotateY: direction >= 0 ? -180 : 180,
     transition: {
       duration: 1.5,
       ease: "easeInOut"
@@ -60,7 +70,6 @@ const prevPage = () => {
 };
 
   const {handleTouchStart, handleTouchMove, handleTouchEnd } = useSwap(prevPage, nextPage);
-
   
   return (
     <div 
@@ -69,16 +78,15 @@ const prevPage = () => {
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
     >       
+       <Page next>{pages[currentPage]}</Page>
 
-       <Page next>Page {currentPage}</Page>
-
-      {flippingPage && 
+      {flippingPage >=0 && 
           <motion.div
             className={`pages-wrapper ${direction > 0 ? 'page-animation-left' : 'page-animation-right'}`}
             animate={controls}
           >
 
-          <Page current>Page {flippingPage}</Page>
+          <Page current>{pages[flippingPage]}</Page>
           </motion.div>
       }
     </div>

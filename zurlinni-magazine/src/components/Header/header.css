@@ -1,0 +1,18 @@
+.header-container{
+    background-color: var(--dark-blue);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.logo-container{
+    width: 5rem;
+}
+
+.logo{
+    display: block;
+    width: 100%;  
+}

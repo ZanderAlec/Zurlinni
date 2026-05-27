@@ -1,0 +1,38 @@
+.page{
+     position: absolute;
+    inset: 0;
+
+    background: white;
+
+    backface-visibility: hidden;
+    border: 1px solid grey;
+    box-shadow: 10px;
+}
+
+.page::after{
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    pointer-events: none;
+
+    opacity: 0.35;
+
+    background:
+      linear-gradient(
+        to right,
+        rgba(0,0,0,0.25),
+        transparent 20%,
+        transparent 80%,
+        rgba(0,0,0,0.25)
+      );
+}
+
+.current{
+    z-index : 2;
+}
+
+.next{
+    z-index: 1;
+}

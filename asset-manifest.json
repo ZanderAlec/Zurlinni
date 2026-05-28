@@ -1,27 +1,37 @@
 {
   "files": {
-    "main.css": "/Zurlinni/static/css/main.12d0eba2.css",
-    "main.js": "/Zurlinni/static/js/main.7547a9a2.js",
-    "static/media/model1-front.jpg": "/Zurlinni/static/media/model1-front.729c31102fbf36b77d69.jpg",
+    "main.css": "/Zurlinni/static/css/main.3aae6f62.css",
+    "main.js": "/Zurlinni/static/js/main.269dc9fa.js",
+    "static/media/accessories.jpg": "/Zurlinni/static/media/accessories.54e1606bc4e288002d21.jpg",
+    "static/media/shirt.jpg": "/Zurlinni/static/media/shirt.7f04eb746a2e6690672f.jpg",
+    "static/media/shirt3.jpg": "/Zurlinni/static/media/shirt3.d046b0fd541b62982c9a.jpg",
+    "static/media/purse3.jpg": "/Zurlinni/static/media/purse3.518b4968b01688d77801.jpg",
+    "static/media/purse2.jpg": "/Zurlinni/static/media/purse2.d2c41a3a273139a4e2ee.jpg",
+    "static/media/case.jpg": "/Zurlinni/static/media/case.352903a5e1d8286accd0.jpg",
+    "static/media/phoneCase.jpg": "/Zurlinni/static/media/phoneCase.640019a106e966e37e80.jpg",
+    "static/media/hat4.jpg": "/Zurlinni/static/media/hat4.56ef464705da0fc9375d.jpg",
+    "static/media/shirt5.jpg": "/Zurlinni/static/media/shirt5.74d18739203be5682faa.jpg",
+    "static/media/shirt2.jpg": "/Zurlinni/static/media/shirt2.85a80e345a81f039b9b0.jpg",
+    "static/media/hat2.jpg": "/Zurlinni/static/media/hat2.7f3c0fd1003c1c0f3005.jpg",
+    "static/media/hat3.jpg": "/Zurlinni/static/media/hat3.149c29f165e49c3a1f70.jpg",
+    "static/media/shirt4.jpg": "/Zurlinni/static/media/shirt4.94f2acaf2076ae4dda1a.jpg",
+    "static/media/dres.jpg": "/Zurlinni/static/media/dres.2e6269c8ecea3072192a.jpg",
     "static/media/asset7.png": "/Zurlinni/static/media/asset7.db021290ef3585044f66.png",
-    "static/media/model1-left2.jpg": "/Zurlinni/static/media/model1-left2.a95b472a2d3bb1cc41d1.jpg",
-    "static/media/model1-left.jpg": "/Zurlinni/static/media/model1-left.31d99fb720cf128f2b0b.jpg",
     "static/media/water-frame.png": "/Zurlinni/static/media/water-frame.5f919b630d4fbe894a7e.png",
     "static/media/Logo.png": "/Zurlinni/static/media/Logo.693cfcd6801942cdcb55.png",
     "static/media/hat.png": "/Zurlinni/static/media/hat.a27674d539ce108476f4.png",
     "static/media/purse.png": "/Zurlinni/static/media/purse.e2e5c1911bb65c8405fe.png",
     "static/media/model5.png": "/Zurlinni/static/media/model5.fcd4f292f2dba347c0df.png",
-    "static/media/model4.png": "/Zurlinni/static/media/model4.b20b7a5b316285e021b4.png",
     "static/media/model2.png": "/Zurlinni/static/media/model2.6c3f76c8ad1a265c38c5.png",
     "static/media/model1.png": "/Zurlinni/static/media/model1.720eea14b10e9beafe2a.png",
-    "static/media/model6.png": "/Zurlinni/static/media/model6.d6029b6b558e073ee6e2.png",
+    "static/media/model4.png": "/Zurlinni/static/media/model4.d6029b6b558e073ee6e2.png",
     "static/media/model3.png": "/Zurlinni/static/media/model3.1f9a719f68101df70f0c.png",
     "index.html": "/Zurlinni/index.html",
-    "main.12d0eba2.css.map": "/Zurlinni/static/css/main.12d0eba2.css.map",
-    "main.7547a9a2.js.map": "/Zurlinni/static/js/main.7547a9a2.js.map"
+    "main.3aae6f62.css.map": "/Zurlinni/static/css/main.3aae6f62.css.map",
+    "main.269dc9fa.js.map": "/Zurlinni/static/js/main.269dc9fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.12d0eba2.css",
-    "static/js/main.7547a9a2.js"
+    "static/css/main.3aae6f62.css",
+    "static/js/main.269dc9fa.js"
   ]
 }

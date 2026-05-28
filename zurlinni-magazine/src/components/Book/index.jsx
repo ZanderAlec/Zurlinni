@@ -20,29 +20,28 @@ import Shirt2 from '../Pages/Shirt2/index.jsx';
 import Shirt3 from '../Pages/Shirt3/index.jsx';
 import Shirt4 from '../Pages/Shirt4/index.jsx';
 import Shirt5 from '../Pages/Shirt5/index.jsx';
+import Hat5 from '../Pages/Hat5/index.jsx';
 
 export default function Book() {
 
   const pages = [
     <Page><Cover/></Page>,
     <Page><Collection /></Page>,
-    <Page><Dress /></Page>,
-    <Page><Shirt /></Page>,
-    <Page><Shirt2 /></Page>,
-    <Page><Shirt3 /></Page>,
-    <Page><Shirt4 /></Page>,
-    <Page><Shirt5 /></Page>,
     <Page><Acessories /></Page>,
     <Page><MoreAccessories/></Page>,
+    <Page><Shirt /></Page>,
+    <Page><PhoneCase/></Page>,
+    <Page><Purse2/></Page>,
+    <Page><Shirt2 /></Page>,
+    <Page><Shirt3 /></Page>,
+    <Page><Dress /></Page>,
+    <Page><Purse3/></Page>,
     <Page><Hat2/></Page>,
     <Page><Hat3/></Page>,
     <Page><Hat4/></Page>,
-    <Page><Purse2/></Page>,
-    <Page><Purse3/></Page>,
-    <Page><PhoneCase/></Page>,
-    
-
-    
+    <Page><Shirt4 /></Page>,
+    <Page><Shirt5 /></Page>,
+    <Page><Hat5/></Page>
   ];
 
   const pagesNum = pages.length-1;

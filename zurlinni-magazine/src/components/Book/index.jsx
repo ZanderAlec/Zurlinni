@@ -21,14 +21,24 @@ import Shirt3 from '../Pages/Shirt3/index.jsx';
 import Shirt4 from '../Pages/Shirt4/index.jsx';
 import Shirt5 from '../Pages/Shirt5/index.jsx';
 import Hat5 from '../Pages/Hat5/index.jsx';
+import Model1 from '../Pages/model1/index.jsx';
+import Model2 from '../Pages/model2/index.jsx';
+import Model3 from '../Pages/model3/index.jsx';
+import Model4 from '../Pages/model4/index.jsx';
+import Model5 from '../Pages/Model5/index.jsx';
+import Model6 from '../Pages/Model6/index.jsx';
 
 export default function Book() {
 
   const pages = [
     <Page><Cover/></Page>,
-    <Page><Collection /></Page>,
+    <Page><Model1/></Page>,
+    <Page><Model2/></Page>,
+    <Page><Model3/></Page>,
+    <Page><Model4/></Page>,
+    <Page><Model5/></Page>,
+    <Page><Model6/></Page>,
     <Page><Acessories /></Page>,
-    <Page><MoreAccessories/></Page>,
     <Page><Shirt /></Page>,
     <Page><PhoneCase/></Page>,
     <Page><Purse2/></Page>,

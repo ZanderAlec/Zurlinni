@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Zurlinni/static/css/main.06bee6f4.css",
+    "main.css": "/Zurlinni/static/css/main.12d0eba2.css",
     "main.js": "/Zurlinni/static/js/main.7547a9a2.js",
     "static/media/model1-front.jpg": "/Zurlinni/static/media/model1-front.729c31102fbf36b77d69.jpg",
     "static/media/asset7.png": "/Zurlinni/static/media/asset7.db021290ef3585044f66.png",
@@ -17,11 +17,11 @@
     "static/media/model6.png": "/Zurlinni/static/media/model6.d6029b6b558e073ee6e2.png",
     "static/media/model3.png": "/Zurlinni/static/media/model3.1f9a719f68101df70f0c.png",
     "index.html": "/Zurlinni/index.html",
-    "main.06bee6f4.css.map": "/Zurlinni/static/css/main.06bee6f4.css.map",
+    "main.12d0eba2.css.map": "/Zurlinni/static/css/main.12d0eba2.css.map",
     "main.7547a9a2.js.map": "/Zurlinni/static/js/main.7547a9a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.06bee6f4.css",
+    "static/css/main.12d0eba2.css",
     "static/js/main.7547a9a2.js"
   ]
 }

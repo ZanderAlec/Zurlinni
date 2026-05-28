@@ -1,15 +1,11 @@
 import React from 'react'
 import  './style.css'
 
-export default function Page({current, next, children}) {
+export default function Page({children}) {
 
 
   return (
-    <div  className={`
-        page
-        ${current ? 'current' : ''}
-        ${next ? 'next' : ''}
-      `}>
+    <div  className={`page`}>
         {children}
     </div>
   )

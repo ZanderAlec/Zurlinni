@@ -10,9 +10,9 @@ import Acessories from '../Pages/Acessories/index.jsx'
 export default function Book() {
 
   const pages = [
-    <Concept/>,
-    <Collection/>,
-    <Acessories/>
+    <Page><Concept /></Page>,
+    <Page><Collection /></Page>,
+    <Page><Acessories /></Page>
   ];
 
   const pagesNum = pages.length-1;
@@ -78,16 +78,16 @@ const prevPage = () => {
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
     >       
-       <Page next>{pages[currentPage]}</Page>
+      {pages[currentPage]}
 
       {flippingPage >=0 && 
-          <motion.div
-            className={`pages-wrapper ${direction > 0 ? 'page-animation-left' : 'page-animation-right'}`}
-            animate={controls}
-          >
+        <motion.div
+          className={`pages-wrapper ${direction > 0 ? 'page-animation-left' : 'page-animation-right'}`}
+          animate={controls}
+        >
 
-          <Page current>{pages[flippingPage]}</Page>
-          </motion.div>
+        {pages[flippingPage]}
+        </motion.div>
       }
     </div>
   )
